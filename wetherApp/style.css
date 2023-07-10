@@ -1,0 +1,88 @@
+*{
+    /* font-size: 14px; */
+    font-family: monospace;
+    font-weight: 900;
+    color: #ac8a8a;
+    
+}
+hr{
+    border: 1px solid rgb(45, 22, 22) !important;
+    
+}
+.main-div{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: transparent !important;
+    background: transparent;
+    
+}
+
+#search{
+    
+    color: black;
+    font-size: 1.4em;
+    border: none;
+    width: 100%;
+    outline:none ;
+}
+.search-img{
+    background-color: white;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right: 20px;
+    height: 2.5em;
+    width: 7.5%;
+    object-fit: fill;
+    
+}
+.search{
+    border-bottom: 1px solid black;
+
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.country-details{
+    height: 7rem;
+    display: flex;
+
+}
+.count{
+    width: 40%;
+}
+.city-name{
+margin-top: 2rem;
+}
+.weather-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    height: 8em;
+}
+.div{
+    display: flex;
+    justify-content:space-between;
+    height: 6em;
+}
+.wind-type{
+    width: 50%;
+}
+.weather-details{
+    width: 50%;
+}
+
+.wether-h2{
+    text-align: center;
+}
+.card{
+    height: 100vh;
+}
